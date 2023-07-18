@@ -1,0 +1,278 @@
+/*Image reference 1 header portion*/
+.container1 {
+  width: 100%;
+  transition: transform 2s;
+  position: relative;
+
+  display: flex;
+}
+
+.container1:hover {
+  transform: scale(0.9);
+}
+.container2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.centered {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+}
+.container3 {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  justify-content: flex-start;
+}
+.ulco {
+  list-style: none;
+  font-size: 25px;
+  font-weight: bold;
+  color: whitesmoke;
+  line-height: 35px;
+  font-family: Cambria;
+}
+.ulist {
+  list-style: none;
+  display: flex;
+  font-family: Cambria;
+  font-weight: 500;
+  height: 50px;
+
+  background-color: rgba(0, 0, 0, 0.829);
+}
+li {
+  padding: 5px 10px;
+  margin: 0px 30px;
+}
+a {
+  color: aliceblue;
+  text-decoration: none;
+  line-height: 35px;
+  padding-inline: 10px;
+  font-family: Cambria;
+}
+
+.licons {
+  margin-left: 150px;
+  display: flex;
+  justify-content: center;
+}
+ul {
+  margin-block: 0px;
+}
+/*Image reference 1 image and image text portion*/
+body {
+  margin: 0px;
+}
+
+.header1 {
+  color: rgb(21, 175, 149);
+  background-color: aliceblue;
+  font-weight: 800;
+  font-family: Lexend Peta;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.subhead1 {
+  font-family: arial;
+  font-size: 28px;
+  margin-left: 50px;
+  color: aliceblue;
+  font-weight: 600;
+  margin-left: 50px;
+}
+.p1 {
+  font-family: helvetica;
+  margin-top: 10px;
+  padding: 0px 80px;
+  text-align: center;
+
+  color: azure;
+}
+input {
+  background-color: rgba(40, 197, 163, 0.877);
+  border: 10px;
+  padding: 20px;
+  font-size: 17px;
+  color: whitesmoke;
+  border-radius: 3px;
+  cursor: pointer;
+  display: inline-block;
+  width: 200px;
+  margin-left: 36.5%;
+  font-family: Lexend Peta;
+  position: fixed;
+}
+
+/*Image reference 2  portion*/
+
+.header2 {
+  margin-top: 50px;
+  margin-left: 140px;
+  color: rgba(40, 197, 163, 0.877);
+  font-weight: 600;
+  font-family: Lexend Peta;
+}
+.subhead2 {
+  margin-left: 140px;
+  font-weight: 900;
+  font-size: 30px;
+  font-family: Cambria;
+}
+.box {
+  width: 50%;
+  height: 200px;
+  margin: 10px 10px;
+}
+article {
+  margin-top: 50px;
+  margin-right: 100px;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: helvetica;
+}
+.gallery {
+  margin: 20px;
+  padding: 20px 20px;
+
+  width: 180px;
+}
+.desc {
+  padding: 15px;
+  font-family: Cambri;
+  text-align: center;
+}
+.container4icons {
+  width: 80%;
+  height: auto;
+  margin-left: 15%;
+
+  display: flex;
+  justify-content: flex-start;
+}
+
+/*Image reference 3 footer portion*/
+
+h3 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+  font-family: Lexend Peta;
+}
+.licons2 {
+  padding-left: 20px;
+  padding-top: 10px;
+  display: inline;
+}
+.footer {
+  width: 100%;
+  height: 70%;
+  background-color: black;
+  display: flex;
+  justify-content: flex-start;
+}
+.box2 {
+  width: 33%;
+  height: auto;
+  margin: 30px 30px;
+}
+.header3 {
+  font-size: 25px;
+  color: azure;
+  margin-top: 20px;
+  margin-left: 50px;
+  font-family: lexend peta;
+  font-weight: 900;
+}
+.article2 {
+  margin-top: 20px;
+  margin-left: 60px;
+
+  font-size: 15px;
+  font-weight: 400;
+  font-family: helvetica;
+  color: azure;
+}
+.licons3 {
+  margin-right: 285px;
+  display: flex;
+  justify-content: center;
+}
+.button1 {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: 300px;
+  font-size: 16px;
+
+  margin-left: 55px;
+  margin-top: 20px;
+
+  border: 2px white solid;
+
+  cursor: pointer;
+}
+.subhead3 {
+  text-align: left;
+  font-size: 15px;
+  color: aliceblue;
+}
+
+h4 {
+  color: aliceblue;
+  margin-top: 35px;
+
+  font-family: lexend peta;
+}
+.ulist2 {
+  color: whitesmoke;
+
+  font-family: Cambria;
+  font-weight: 500;
+  font-family: lexend peta;
+
+  padding: 0px 0px;
+}
+.ulist3 {
+  color: whitesmoke;
+  font-size: 10px;
+
+  font-weight: 500;
+  font-family: lexend peta;
+  list-style-image: url(image/phone.jpg);
+
+  padding: 0px 0px;
+}
+.ulist4 {
+  color: whitesmoke;
+  font-size: 10px;
+
+  font-weight: 500;
+  font-family: lexend peta;
+  list-style-image: url(image/mail.png);
+
+  padding: 0px 0px;
+}
+.ulist5 {
+  color: whitesmoke;
+  margin-top: 20px;
+  font-size: 12px;
+
+  font-family: lexend peta;
+  font-weight: 500;
+  list-style-image: url(image/map.jpg);
+
+  padding: 0px 0px;
+}

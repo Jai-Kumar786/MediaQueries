@@ -1,0 +1,69 @@
+body
+{
+    width: 700px;
+    background-color: black;
+    border: dashed 3px royalblue;
+}
+body :hover
+{
+    background-color: darkslategrey;
+    
+}
+a{
+    text-decoration: none;
+   
+    margin: 0px 30px;
+    font-size: 20px;
+    border: 2px solid black;
+    color: blue;
+    background-color: coral;
+   
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+   
+    
+    
+}
+
+a:hover
+{
+color:greenyellow;
+background-color: brown;
+text-decoration: underline;
+cursor: pointer;
+}
+
+ul
+{
+padding: 10px;
+
+}
+
+p{
+background-color: chocolate;
+color: cornsilk;
+border: solid black 3px;
+padding-left: 50px;
+padding-right: 50px;
+margin: 100px;
+font-family: cursive;
+ 
+
+
+}
+p:hover
+{
+background-color: darkgreen;
+color: aquamarine;
+}
+
+li
+{
+list-style-image: url("star.png") ;
+color: chartreuse;
+}
+
+
+
+

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title> Innomatics </title>
+    <style>
+      div
+      {
+        display: flex;
+        justify-content: center;
+      }
+  @keyframes ex { 
+	0%   { background-color: red;    }
+	20%  { background-color: purple; }
+	40%  { background-color: blue;   }
+	60%  { background-color: green;  }
+	80%  { background-color: rgb(127, 129, 22); }
+	100% { background-color: rgb(201, 131, 3); }
+}
+.ex {
+	color: #fff;
+	animation:ex 5s infinite; 
+	 
+}
+form
+{
+  border: 5px dotted gray;
+  display: block;
+  
+  
+}
+form:hover.exform {
+	color: #fff;
+	animation:ex 5s infinite; 
+	 
+}
+input:checked
+{
+  height: 30px;
+  width: 30px;
+}
+
+
+    </style>
+    </head>
+    <h1  align="center"><u>Registration form for Innomatics </u></h1>
+    <hr color="green" size="3px" width="1000px" align="center">
+    
+
+    <body >
+      <div >
+        <form class="exform">
+            <label>
+                Name
+            </label>
+            <input type="text" placeholder="name" size="30">
+            <br>
+            <label>
+                Email
+            </label>
+            <input type="email" placeholder="email" size="30">
+            <br>
+            <br>
+<label>
+     Programme
+</label>
+<br>
+<label>Certification</label>
+<input type="radio" name="Programme" checked="checked">
+
+<label>Diploma</label>
+<input type="radio" name="Programme"checked="checked" >
+
+<label> Post-Graduate Diploma</label>
+<input type="radio" name="Programme" checked="checked" >
+<br>
+<br>
+<label>
+    <b>Choose Courses</b>
+</label>
+<br>
+<select>
+    <option>HTML</option>
+    <option>CSS</option>
+    <option>BOOTSTRAP</option>
+    <option>JAVASCRIPT</option>
+    <option>REACT</option>
+    
+</select>
+<br>
+
+<br>
+
+<input  type="submit" value="Register">
+<input type="reset" value="Cancel">
+
+
+
+
+
+</div>
+    </body>
+</html>
+    
